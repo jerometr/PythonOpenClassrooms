@@ -1,7 +1,7 @@
 fruits = ["pomme", "banane","orange"]
 fruits.append("kiwi")
-fruits.remove(fruits[2])
+fruits.remove("orange")
 fruits[1] = "ananas"
-len(fruits)
+print(len(fruits))
 fruits.sort()
 print(fruits)
