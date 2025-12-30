@@ -3,4 +3,4 @@ fruits["kiwi"] = "vert"
 couleur_banane = fruits.get("banane")
 fruits["pomme"] = "vert"
 fruits.pop("banane", None)
-print(list(fruits.keys())
+print(fruits.keys())
