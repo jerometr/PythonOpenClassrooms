@@ -1,9 +1,6 @@
-fruits=dict()
-fruits["pomme"] = "rouge"
-fruits["banane"] = "jaune"
-fruits["orange"] = "orange"
+fruits = { "pomme": "rouge", "banane": "jaune", "orange": "orange", "kiwi": "vert", }
 fruits["kiwi"] = "vert"
-couleur_banane = fruits["banane"]
+couleur_banane = fruits.get("banane")
 fruits["pomme"] = "vert"
-del fruits["banane"]
-print(fruits.keys())
+fruits.pop("banane", None)
+print(list(fruits.keys())
