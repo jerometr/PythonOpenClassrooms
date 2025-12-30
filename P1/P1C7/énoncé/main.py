@@ -5,5 +5,5 @@ fruits["orange"] = "orange"
 fruits["kiwi"] = "vert"
 couleur_banane = fruits["banane"]
 fruits["pomme"] = "vert"
-fruits.remove("banane")
+del fruits["banane"]
 print(fruits.keys())
