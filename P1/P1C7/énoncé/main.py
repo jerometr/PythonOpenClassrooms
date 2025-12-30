@@ -1,4 +1,4 @@
-fruits = { "pomme": "rouge", "banane": "jaune", "orange": "orange", "kiwi": "vert", }
+fruits = { "pomme": "rouge", "banane": "jaune", "orange": "orange" }
 fruits["kiwi"] = "vert"
 couleur_banane = fruits.get("banane")
 fruits["pomme"] = "vert"
