@@ -14,17 +14,18 @@
 
 #    Calculez et affichez le nombre de nombres dans la liste qui sont supérieurs à la moyenne.
 
-nombres = input("Saisissez une liste de nombres séparés par des virgules (par exemple: "1,2,3,4")
+nombres = input("Saisissez une liste de nombres séparés par des virgules (par exemple: '1,2,3,4') : ")
 
 liste = nombres.split(",")
 print("Liste des nombres:", liste)
 
 liste_entiers = []
-for nombre in liste
-  liste_entiers = liste_entiers.append(int(nombre))
+for nombre in liste:
+  nombre_entier = int(nombre)
+  liste_entiers.append(nombre_entier)
 
 somme = 0
-for x in liste_entiers
+for x in liste_entiers:
   somme += x
 print("Somme des nombres:", somme)
 
