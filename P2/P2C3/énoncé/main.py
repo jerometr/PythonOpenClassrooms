@@ -12,10 +12,10 @@ def salaire_hebdomadaire(salaire_mensuel):
   
 #    Créez une fonction appelée  salaire_horaire(salaire_hebdomadaire, heures_travaillees)  qui prend en paramètres un salaire hebdomadaire et le nombre d'heures travaillées par semaine, et retourne le salaire horaire correspondant en divisant le salaire hebdomadaire par le nombre d'heures travaillées par semaine.
 def salaire_horaire(salaire_hebdomadaire, heures_travaillees):
-  if heures_travaillees != 0
-  salaire_horaire = salaire_hebdomadaire / heures_travaillees
-  else
-  salaire_horaire = 0
+  if heures_travaillees != 0:
+    salaire_horaire = salaire_hebdomadaire / heures_travaillees
+  else:
+    salaire_horaire = 0
   return salaire_horaire
 
 #    Demandez à l'utilisateur de saisir son salaire annuel.
