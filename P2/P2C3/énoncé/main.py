@@ -19,10 +19,10 @@ def salaire_horaire(salaire_hebdomadaire, heures_travaillees):
   return salaire_horaire
 
 #    Demandez à l'utilisateur de saisir son salaire annuel.
-salaire_annuel = float(input ('Salaire annuel :'))
+salaire_annuel = float(input ("Salaire annuel :"))
 
 #    Demandez à l'utilisateur de saisir le nombre d'heures travaillées par semaine.
-heures_travaillees = float(input ('Nombre d'heures travaillees par semaine :'))
+heures_travaillees = float(input ("Nombre d'heures travaillees par semaine :"))
 
 #    Appelez les fonctions précédemment créées pour calculer le salaire horaire correspondant.
 print(f"Votre salaire horaire est de {salaire_horaire(salaire_hebdomadaire(salaire_annuel),heures_travaillees)} euros")
