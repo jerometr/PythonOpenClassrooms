@@ -22,13 +22,9 @@ def salaire_horaire(salaire_hebdomadaire, heures_travaillees):
 salaire_annuel = float(input ("Salaire annuel :"))
 
 #    Demandez à l'utilisateur de saisir le nombre d'heures travaillées par semaine.
-heures_travaillees = float(input ("Nombre d'heures travaillees par semaine :"))
+heures_travaillees = float(input ("Nombre d'heures travaillées par semaine :"))
 
 #    Appelez les fonctions précédemment créées pour calculer le salaire horaire correspondant.
-print(round(salaire_annuel,2))
-print(round(salaire_mensuel(salaire_annuel),2))
-print(round(salaire_hebdomadaire(salaire_mensuel(salaire_annuel)),2))
-print(round(salaire_horaire(salaire_hebdomadaire(salaire_mensuel(salaire_annuel)),heures_travaillees),2))  
+print(f"Votre salaire horaire est de {salaire_horaire(salaire_hebdomadaire(salaire_annuel),heures_travaillees)} euros")
 
 #    Affichez le résultat sous la forme : "Votre salaire horaire est de XX euros".Ecrivez votre code ici
-print(f"Votre salaire horaire est de {round(salaire_horaire(salaire_hebdomadaire(salaire_mensuel(salaire_annuel)),heures_travaillees),2)} euros")
